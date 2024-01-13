@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.flipcart.tdd.testcases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.flipcart.tdd.testcases.LoginPageTest">
+        <methods>
+          <include name="showorders"/>
+          <include name="cart"/>
+          <include name="showProfile"/>
+          <include name="showWishlist"/>
+          <include name="setUp"/>
+          <include name="register"/>
+          <include name="coin"/>
+          <include name="logOut"/>
+          <include name="search"/>
+          <include name="invalidateLoginTest"/>
+          <include name="buy"/>
+          <include name="validateTitleTest"/>
+          <include name="orderProducts"/>
+          <include name="selectFromMenu"/>
+          <include name="validateLoginTest"/>
+        </methods>
+      </class> <!-- com.flipcart.tdd.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
